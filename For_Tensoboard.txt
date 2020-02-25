@@ -1,0 +1,8 @@
+   tensorboard --logdir log/
+
+
+sess = tf.Session()
+tf.summary.image
+
+tf.summary.histogram
+file_writer = tf.summary.FileWriter('./log', sess.graph)
